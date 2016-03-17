@@ -32,6 +32,15 @@ html, body {
   font-size: 2em;
   font-family: "Rosario", "Xin Gothic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
+#content h3 {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #CCC;
+  color: black;
+  cursor: default;
+  font-size: 1em;
+  font-family: "Rosario", "Xin Gothic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
 #content p {
   padding: 10px;
 }
