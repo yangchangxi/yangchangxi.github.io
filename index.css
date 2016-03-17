@@ -26,7 +26,6 @@ html, body {
 #content h1 {
   text-transform: uppercase;
   padding-bottom: 10px;
-  padding-left: 10px;
   border-bottom: 3px solid #CCC;
   color: black;
   cursor: default;
@@ -35,7 +34,7 @@ html, body {
 }
 #content h3 {
   text-transform: uppercase;
-  padding-bottom: 10px;
+  padding-left: 20px;
   color: black;
   cursor: default;
   font-size: 1em;
