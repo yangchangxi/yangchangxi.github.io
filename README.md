@@ -1,8 +1,6 @@
-#Hux Blog
+#Chauncey Blog
 
-###[View Live Hux Blog &rarr;](http://huxpro.github.io)
-
-![](http://huangxuan.me/img/blog-desktop.jpg)
+###[View Live Chauncey Blog &rarr;](http://yangchangxi.github.io)
 
 
 ### "Page Build Warning" email
