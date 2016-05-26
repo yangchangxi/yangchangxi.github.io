@@ -35,13 +35,13 @@
 
 ```
 # Site settings
-title: Hux Blog             # 你的博客网站标题
-SEOTitle: Hux Blog			# 在后面会详细谈到
+title: Chauncey Blog             # 你的博客网站标题
+SEOTitle: Chauncey Blog			# 在后面会详细谈到
 description: "Cool Blog"    # 随便说点，描述一下
 
 # SNS settings      
-github_username: huxpro     # 你的github账号
-weibo_username: huxpro      # 你的微博账号，底部链接会自动更新的。
+github_username: yangchangxi     # 你的github账号
+weibo_username: yangchangxi      # 你的微博账号，底部链接会自动更新的。
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
@@ -61,7 +61,7 @@ layout:     post
 title:      "Hello 2015"
 subtitle:   "Hello World, Hello Blog"
 date:       2015-01-29 12:00:00
-author:     "Hux"
+author:     "Chauncey"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - Life
@@ -71,8 +71,6 @@ tags:
 
 #### SideBar
 
-看右边:
-![](http://huangxuan.me/img/blog-sidebar.jpg)
 
 设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
 ```
@@ -130,8 +128,6 @@ friends: [
 
 HTML5幻灯片的排版：
 
-![](http://huangxuan.me/img/blog-keynote.jpg)
-
 这部分是用于占用html格式的幻灯片的，一般用到的是 Reveal.js, Impress.js, Slides, Prezi 等等.我认为一个现代化的博客怎么能少了放html幻灯的功能呢~
 
 其主要原理是添加一个 `iframe`，在里面加入外部链接。你可以直接写到头文件里面去，详情请见下面的yaml头文件的写法。
@@ -139,7 +135,7 @@ HTML5幻灯片的排版：
 ```
 ---
 layout:     keynote
-iframe:     "http://huangxuan.me/js-module-7day/"
+iframe:     "http://yangchangxi.com/js-module-7day/"
 ---
 ```
 
@@ -177,7 +173,7 @@ ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # 你用Google账号去注册一个就会给你一个这样的id
-ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
+ga_domain: yangchangxi.com			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
 ```
 
 #### Customization
