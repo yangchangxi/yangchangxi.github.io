@@ -4,7 +4,7 @@ title:      "No.0 当我开始写点东西的时候，我在想什么"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2016-11-30 12:34:00
 author:     "Chauncey"
-header-img: "/img/in-post/no0.jpg"
+header-img: "img/in-post/no0.jpg"
 catalog: true
 tags:
     - 生活
