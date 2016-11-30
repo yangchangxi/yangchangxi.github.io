@@ -70,7 +70,7 @@ ga_domain: yangchangxi.com
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Yet Another Product Manager."
-sidebar-avatar: /img/avatar-chauncey.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-chauncey.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
