@@ -1,0 +1,13 @@
+---
+layout:     post
+title:      "No.0 当我开始写点东西的时候，我在想什么"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2016-11-30 12:34:00
+author:     "Chauncey"
+header-img: ""
+catalog: true
+tags:
+    - 生活
+---
+
+> “Yeah It's on. ”
