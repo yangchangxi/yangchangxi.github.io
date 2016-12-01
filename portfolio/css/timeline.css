@@ -218,6 +218,7 @@ header p{
 }
 header img{
 	width: 190px;
+	border-radius: 50px;
 }
 
 .cbp_tmlabel .hux_ul{
