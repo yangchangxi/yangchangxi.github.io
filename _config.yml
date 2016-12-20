@@ -80,7 +80,13 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 
-# Websites
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
 friends: [
     {
         title: "5MIO",

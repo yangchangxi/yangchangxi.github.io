@@ -12,4 +12,6 @@ tags:
     - 运营
 ---
 
-coming soon
+> Kindness is more important than brains. —— Jeff Bezos
+
+跟运营部的微信公众号小编
