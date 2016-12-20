@@ -14,4 +14,4 @@ tags:
 
 > Kindness is more important than brains. —— Jeff Bezos
 
-跟运营部的微信公众号小编
+跟运营部的微信公众号小编定 Wi-Fi 探针营销短信企业签名，我问她日常生活中有没有遇到觉得特别好的 ideas，突然她双眼冒光，特崇拜的说：『我特别喜欢公众号拼团吧的标题，每次都能吸引我的注意力……』。
