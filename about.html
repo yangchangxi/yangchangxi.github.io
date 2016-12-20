@@ -95,10 +95,12 @@ header-img: "img/about-bg.jpg"
 {% if site.duoshuo_username %}
 <!-- 多说评论框 start -->
 <div class="comment">
+    <!-- This id is used for indexing my loss comments forcedly -->
     <div class="ds-thread"
-    {% if site.duoshuo_username == "chxblog" %}
+    {% if site.duoshuo_username == "huxblog" %}
         data-thread-id="1187623191091085319"
     {% else %}
+    <!-- U can just use this key generated to index comments at page about -->
         data-thread-key="{{site.duoshuo_username}}/about"
     {% endif %}
 
@@ -109,7 +111,7 @@ header-img: "img/about-bg.jpg"
 
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
-    // dynamic User hacking by Chx
+    // dynamic User hacking by Hux
     var _user = '{{site.duoshuo_username}}';
 
     // duoshuo comment query.
