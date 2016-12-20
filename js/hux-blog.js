@@ -5,21 +5,21 @@
  */
 
  /*!
- * Chx Blog v1.6.0 (http://startbootstrap.com)
- * Copyright 2016 @yangchangxi
- * Licensed under Apache 2.0
+ * Hux Blog v1.6.0 (http://startbootstrap.com)
+ * Copyright 2016 @huxpro
+ * Licensed under Apache 2.0 
  */
 
 // Tooltip Init
-// Unuse by Chx since V1.6: Titles now display by default so there is no need for tooltip
+// Unuse by Hux since V1.6: Titles now display by default so there is no need for tooltip
 // $(function() {
 //     $("[data-toggle='tooltip']").tooltip();
 // });
 
 
 // make all images responsive
-/*
- * Unuse by Chx
+/* 
+ * Unuse by Hux
  * actually only Portfolio-Pages can't use it and only post-img need it.
  * so I modify the _layout/post and CSS to make post-img responsive!
  */
@@ -48,7 +48,7 @@ jQuery(document).ready(function($) {
     //primary navigation slide-in effect
     if ($(window).width() > MQL) {
         var headerHeight = $('.navbar-custom').height(),
-            bannerHeight  = $('.intro-header .container').height();
+            bannerHeight  = $('.intro-header .container').height();     
         $(window).on('scroll', {
                 previousTop: 0
             },
@@ -74,7 +74,7 @@ jQuery(document).ready(function($) {
 
                 //adjust the appearance of side-catalog
                 $catalog.show()
-                if (currentTop > bannerHeight) {
+                if (currentTop > (bannerHeight + 41)) {
                     $catalog.addClass('fixed')
                 } else {
                     $catalog.removeClass('fixed')
