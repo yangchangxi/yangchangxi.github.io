@@ -11,3 +11,15 @@ tags:
     - 吐槽
     - 启示
 ---
+
+> 下滑这里查看更多内容
+
+
+TLDR; It covers lots of cool stuff about Service Worker!
+
+### [Watching Fullscreen → ](https://yangchangxi.com/flush-toilet/)
+
+<div class="visible-md visible-lg">
+    <img src="//yangchangxi.com/flush-toilet/attach/qrcode.png" width="350" />
+    <small class="img-hint">Scan on mobile</small>
+</div>
