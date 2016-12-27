@@ -15,7 +15,7 @@ tags:
 > 下滑这里查看更多内容
 
 
-TLDR; It covers lots of cool stuff about Service Worker!
+TLDR; It covers lots of cool stuff about Product Designer!
 
 ### [Watching Fullscreen → ](https://yangchangxi.com/flush-toilet/)
 
