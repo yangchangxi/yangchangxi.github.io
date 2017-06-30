@@ -68,6 +68,7 @@ layout: default
 
                 <hr style="visibility: hidden;">
 
+                {% include reward.html %} /* 打赏 */
 
                 <ul class="pager">
                     {% if page.previous.url %}
@@ -87,8 +88,6 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
-
-                {% include reward.html %} /* 打赏 */
 
 
                 {% if site.disqus_username %}

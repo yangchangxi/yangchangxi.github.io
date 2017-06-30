@@ -13,13 +13,13 @@
         .reward{display:block;width:100px;margin:5px auto;height:25px;line-height:25px;padding:10px;background-color:#E74851;color:#fff;text-align:center;text-decoration:none;border-radius:10px;font-weight:bold;font-size:16px;transition: all 0.3s;}
         .reward:hover{opacity:0.8;padding:15px;font-size:18px;}
         .reward_close{float:right;display:inline-block;}
-        .reward_tit{width: 100%;height: 75px;text-align: center;line-height: 66px;color: #a3a3a3;font-size: 16px;background: url('/dsimg/cy-reward-title-bg.jpg');font-family: 'Microsoft YaHei';margin-top: 7px;margin-right:2px;}
+        .reward_tit{width: 100%;height: 75px;text-align: center;line-height: 66px;color: #a3a3a3;font-size: 16px;background: url('/img/reward/cy-reward-title-bg.jpg');font-family: 'Microsoft YaHei';margin-top: 7px;margin-right:2px;}
         .reward_tit p{color:#a3a3a3;text-align:center;font-size:16px;}
         .reward_payimg{width:140px;padding:10px;border:6px solid #EA5F00;margin:0 auto;border-radius:3px;height:140px;}
         .reward_payimg img{display:block;text-align:center;width:140px;height:140px; }
         .pay_explain{text-align:center;margin:10px auto;font-size:12px;color:#545454;}
-        .radiobox{width: 16px;height: 16px;background: url('/dsimg/radio2.jpg');display: block;float: left;margin-top: 5px;margin-right: 14px;}
-        .checked .radiobox{background:url('/dsimg/radio1.jpg');}
+        .radiobox{width: 16px;height: 16px;background: url('/img/reward/radio2.jpg');display: block;float: left;margin-top: 5px;margin-right: 14px;}
+        .checked .radiobox{background:url('/img/reward/radio1.jpg');}
         .reward_payselect{text-align:center;margin:0 auto;margin-top:40px;cursor:pointer;height:60px;width:280px;}
         .reward_payselect .pay_item{display:inline-block;margin-right:10px;float:left;}
         .reward_info{clear:both;}
@@ -32,22 +32,22 @@
     <p><a href="javascript:void(0)" onclick="rewardToggle()" class="reward" title="打赏，支持一下">打赏</a></p>
     <div class="hide_box"></div>
     <div class="reward_box">
-    	<a class="reward_close" href="javascript:void(0)" onclick="rewardToggle()" title="关闭"><img src="/dsimg/close.jpg" alt="取消" /></a>
+    	<a class="reward_close" href="javascript:void(0)" onclick="rewardToggle()" title="关闭"><img src="/img/reward/close.jpg" alt="取消" /></a>
     	<div class="reward_tit">
     		<p>谢谢大佬!</p>
     	</div>
     	<div class="reward_payimg">
-    		<img src="/dsimg/alipayimg.jpg" alt="扫码支持" title="扫一扫" />
+    		<img src="/img/reward/alipayimg.jpg" alt="扫码支持" title="扫一扫" />
     	</div>
     		<div class="pay_explain">扫码打赏，你说多少就多少</div>
     	<div class="reward_payselect">
     		<div class="pay_item checked" data-id="alipay">
 	    		<span class="radiobox"></span>
-	    		<span class="pay_logo"><img src="/dsimg/alipay.jpg" alt="支付宝" /></span>
+	    		<span class="pay_logo"><img src="/img/reward/alipay.jpg" alt="支付宝" /></span>
     		</div>
     		<div class="pay_item" data-id="weipay">
 	    		<span class="radiobox"></span>
-	    		<span class="pay_logo"><img src="/dsimg/wechat.jpg" alt="微信" /></span>
+	    		<span class="pay_logo"><img src="/img/reward/wechat.jpg" alt="微信" /></span>
     		</div>
     	</div>
     	<div class="reward_info">
@@ -60,7 +60,7 @@
     	$(".pay_item").click(function(){
     		$(this).addClass('checked').siblings('.pay_item').removeClass('checked');
     		var dataid=$(this).attr('data-id');
-    		$(".reward_payimg img").attr("src","/dsimg/"+dataid+"img.jpg");
+    		$(".reward_payimg img").attr("src","/img/reward/"+dataid+"img.jpg");
     		$("#reward_pay_txt").text(dataid=="alipay"?"支付宝":"微信");
     	});
     });
