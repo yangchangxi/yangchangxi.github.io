@@ -86,3 +86,8 @@ friends: [
         href: "http://mmmmm.io"
     }
 ]
+
+# Mermaid added in 2017/8/8 08:48
+mermaid:
+  src: '/js/mermaid.js'
+  src_config: '/js/mermaid_config.js'
