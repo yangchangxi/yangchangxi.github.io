@@ -40,13 +40,3 @@ tags:
 确定--取消
 保存--重置
 提交--取消
-
-{% mermaid %}
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-{% endmermaid %}
-
-Hello worldS!
